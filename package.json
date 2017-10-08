@@ -1,0 +1,21 @@
+{
+  "name": "sharikovvladislav.github.io",
+  "version": "1.0.0",
+  "scripts": {
+		"dev": "lite-server -c configs/dev-server.config.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharikovvladislav/sharikovvladislav.github.io.git"
+  },
+  "author": "Vladislav Sharikov <sharikov.vladislav@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sharikovvladislav/sharikovvladislav.github.io/issues"
+  },
+  "homepage": "https://github.com/sharikovvladislav/sharikovvladislav.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
