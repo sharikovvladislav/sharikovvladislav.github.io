@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-  <style>
-    .container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    
-    .data {
-      max-width: 50%;
-    }
-  </style>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-<div class="container">
-  <div class="data">
-    Hello, world!
-  </div>
+<div class="container flex">
+	<div class="inner-container">
+		<div class="photo flex-item">
+			<div style="width: 150px; height: 150px; background-color: blue"></div>
+		</div>
+		<div class="name flex-item">
+			Sharikov Vladislav
+		</div>
+		<div class="social flex-item flex">
+			<div class="icon-link">
+					<img src="icons/Github.svg">
+			</div>
+			<div class="icon-link">
+					<img src="icons/Linkedin.svg">
+			</div>
+			<div class="icon-link">
+					<img src="icons/Twitter.svg">
+			</div>
+		</div>
+	</div>
 </div>
 </body>
 </html>

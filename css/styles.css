@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+
+.icon-link img {
+  width: 25px;
+  height: 25px;
+}
+
+.container.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.inner-container {
+  width: auto;
+}
+
+.social.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social.flex .icon-link:not(:first-child) {
+  margin-left: 10px;
+}
+
+.container.flex > .inner-container > .flex-item:not(:first-child) {
+  margin-top: 10px;
+}
+
+.photo,
+.name,
+.social {
+  text-align: center;
+}
